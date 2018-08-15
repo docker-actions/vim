@@ -1,6 +1,6 @@
 FROM ubuntu:bionic as build
 
-ARG REQUIRED_PACKAGES="vim"
+ARG REQUIRED_PACKAGES="vim=2:8.0.1453-1ubuntu1"
 
 ENV ROOTFS /build/rootfs
 ENV BUILD_DEBS /build/debs
